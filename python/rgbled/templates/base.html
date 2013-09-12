@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Let Us Set Colour!</title>
+    </head>
+    <body>
+        <h1>You love colour right</h1>
+        <form action="/applycolour/" method="POST">
+            <label for="id_red">Red:</label><input type="text" id="id_red" name="red" value="{{ red }}">
+            <br/>
+            <label for="id_green">Green:</label><input type="text" id="id_green" name="green" value="{{ green }}">
+            <br/>
+            <label for="id_blue">Blue:</label><input type="text" id="id_blue" name="blue" value="{{ blue }}">
+            <br/>
+            <input type="submit">
+        </form>
+    </body>
+</html>

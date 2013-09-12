@@ -1,0 +1,20 @@
+Quick getting started guide for server monitoring.
+
+
+Arduino Setup
+
+Written for Arduino Duemilanove
+
+1. Edit rgb_led_driver.ino and set the appropriate PWM pins as per your setup.
+2. Upload the sketch to your Arduino.
+
+
+Python Setup
+
+1. Install the requirements (Flask)
+2. Update rgbled/led_serial.py with your serial port
+3. Put the URL you want to monitor (MONITOR_URL) into the settings.py file
+4. Start the Flask app rgbled/colourpicker.py.
+    Navigate to http://127.0.0.1:5000 to verify it works
+5. Start the monitor services_monitor.py
+6. You should get blinking lights on the Arduino!
